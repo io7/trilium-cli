@@ -14,3 +14,6 @@ __pycache__/
 .idea/
 *.swp
 *~
+dist/
+*.egg-info/
+build/

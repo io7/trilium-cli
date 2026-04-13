@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 trilium-note — file-based CLI for TriliumNext notes via the ETAPI.
 

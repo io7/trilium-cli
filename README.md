@@ -6,11 +6,36 @@ One script, stdlib only, no dependencies.
 
 ## Install
 
+Install isolated via `pipx` or `uv tool`. Both give you an upgradable, versioned install and put `trilium-note` on `$PATH`.
+
 ```bash
-curl -L https://raw.githubusercontent.com/io7/trilium-cli/main/trilium-note \
-  -o ~/.local/bin/trilium-note
-chmod +x ~/.local/bin/trilium-note
+# pipx (latest main)
+pipx install git+https://github.com/io7/trilium-cli.git
+
+# pipx (pinned to a tag)
+pipx install git+https://github.com/io7/trilium-cli.git@v0.1.0
+
+# uv tool
+uv tool install git+https://github.com/io7/trilium-cli.git
 ```
+
+Upgrade:
+
+```bash
+pipx upgrade trilium-cli
+# or
+uv tool upgrade trilium-cli
+```
+
+Uninstall:
+
+```bash
+pipx uninstall trilium-cli
+# or
+uv tool uninstall trilium-cli
+```
+
+Requires Python 3.10+.
 
 ## Configure
 
