@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# trilium-note workspace and backups
+/tmp/trilium/
+*.meta.json
+*.bak.*.html
+
+# editors
+.vscode/
+.idea/
+*.swp
+*~
